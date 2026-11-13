@@ -1,0 +1,7 @@
+.git
+.env
+uploads
+*.sql
+deploy
+bin
+README.md

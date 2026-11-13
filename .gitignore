@@ -1,0 +1,7 @@
+.env
+.env.example
+/bin
+/uploads
+# dump database berisi data asli (email, hash password): jangan di-commit
+coffee_paste*.sql
+!migrasi_*.sql
