@@ -42,7 +42,7 @@ func main() {
 	defer db.Close()
 
 	if err := os.MkdirAll(cfg.UploadDir, 0o755); err != nil {
-		log.Fatalf("PERHATIAN : gagal membuat folder upload: %v")
+		log.Fatalf("PERHATIAN : gagal membuat folder upload: %v", err)
 	}
 
 	// Store
